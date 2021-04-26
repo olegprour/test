@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+
+   char tmp[80];
+   int i, n;
+   cin.getline(tmp, 80);
+    n=strlen(tmp);
+    cout<<n<<endl;
+    cin>>i;
+    if(tmp[i]==97)  tmp [i]=99;
+    cout<<tmp;
+   system ("pause");
+  return 0;
+}
